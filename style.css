@@ -1,0 +1,128 @@
+
+*{
+    box-sizing: 0px;
+}
+body{
+    margin: 0;
+}
+.carousel-item{
+    height: auto;
+}
+.f1{
+    height: 75px;
+}
+.signup{
+    padding-top: 25px;
+    margin-left: 720px;
+}
+
+.card img{
+    height: 250px;
+    width: 100%;
+}
+.carousel-caption h5,.carousel-caption p{ color: aqua;}
+
+.carousel-caption h5:hover,.carousel-caption p:hover{
+
+    
+    animation: first 1s linear 0.2s alternate ;
+}
+@keyframes first{
+    0%{letter-spacing: 10px;
+    font-size: 10px;}
+    25%{letter-spacing: 20px;
+        font-size: 10px;}
+    50%{letter-spacing: 50px;
+        font-size: 30px;}
+    75%{letter-spacing: 20px;
+        font-size: 40px;}
+    100%{letter-spacing: 10px;
+        font-size: 10px;}
+}
+@media(min-width:992px){
+    #navbarNavDropdown{
+       justify-content: center;
+
+    }
+}
+#super {
+    height: auto;
+    overflow:hidden;
+}
+.h3:hover{
+    
+
+    animation: tex 1s 1;
+}
+.card img:hover{
+    
+    transition: 0.5s;
+    
+    border-radius: 50%;
+   
+    
+}
+.card-body button:hover{
+    background-color: white;
+    color: aqua;
+    font-size: 110%;
+
+}
+@keyframes tex{
+    0%{
+       
+        letter-spacing: 10px;
+    }
+    50%{
+        
+        letter-spacing: 20px;
+        font-size: 100px;
+    }
+    100%{
+        letter-spacing: 10px;
+    }
+}
+
+.logo:hover,.nav-link:hover{
+   
+    border-radius: 50%;
+    animation: logo 1s 1;
+
+}
+@keyframes logo {
+    
+   
+    33.3%{
+        rotate: 50deg;
+    }
+
+    66.66%{
+        rotate: -50deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
+.about{
+    white-space:non-wrap;
+    overflow: hidden;
+    animation: 
+    typing 10s;
+    
+}
+
+    @keyframes typing{
+        33.3%{
+            letter-spacing: 5px;
+        }
+    
+        66.66%{
+            letter-spacing: 15px;
+            
+        }
+        100%{
+            letter-spacing: 5px;
+        }
+        
+    }
+
